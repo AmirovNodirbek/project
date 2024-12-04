@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aquamarine;
+}
+.instagram{
+    width: 300px;
+    height: 600px;
+    margin: 100px auto;
+    background:white;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header_link{
+    padding-right: 90px;
+}
+.header_link h1{
+    font-size: 20px;
+    color: black;
+}
+.header_link h2{
+    color: black;
+    font-size: 10px;
+}
+.name_imgss{
+    width: 300px;
+    height: 300px;
+}
+.home{
+    padding-top: 30px;
+    display: flex;
+}
+.home_link{
+    display: flex;
+    gap: 15px;
+
+}
+.home_link img{
+    width: 40px;
+    height: 30px;
+}
+.home_nav img{
+    width: 40px;
+    height: 35px;
+    margin-left: 70px;
+}
+.menu{
+    padding-top: 30px;
+    display: flex;
+    gap: 5px;
+}
+.menu h1{
+    font-size: 15px;
+}
+.menu h2{
+    font-size: 15px;
+}
+footer{
+    padding-top: 30px;
+    display: flex;
+}
+footer img{
+    width: 60px;
+    height: 50px;
+}
+.name_imgs{
+    border-radius: 50%;
+}
+.yurak{
+    width: 60px;
+    display: block;
+}
+.red{
+    width: 50px;
+    display: none;
+}
+.red img{
+    width: 100%;
+}
+.active_yurak{
+    display: none !important;
+}
+.active_red{
+    display: block !important;
+}
+
